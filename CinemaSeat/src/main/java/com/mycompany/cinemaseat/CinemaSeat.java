@@ -13,7 +13,7 @@ public class CinemaSeat {
         Scanner scanner = new Scanner(System.in);
 
         // Registro de usuario
-        System.out.println("🎟️ Bienvenido a CinemaSeat 🎟️");
+        System.out.println("️ Bienvenido a CinemaSeat ️");
         System.out.print("Ingrese su nombre para registrarse: ");
         String nombreUsuario = scanner.nextLine();
         ClienteCine cliente = new ClienteCine(nombreUsuario);
