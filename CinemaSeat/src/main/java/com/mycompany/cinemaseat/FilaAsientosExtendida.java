@@ -20,8 +20,8 @@ public class FilaAsientosExtendida extends FilaAsientos {
     }
 
     public void agregarAsiento(Asiento asiento) {
-        super.agregar(asiento);      // OK porque Asiento implementa ElementoSala
-        asientos.add(asiento);       // También lo agregas a tu propia lista
+        super.agregar(asiento);      
+        asientos.add(asiento);       
     }
 
     public boolean hayAsientosDisponibles() {
